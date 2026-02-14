@@ -38,7 +38,7 @@ Employee retrieves assigned shifts
 
 Data is stored and managed using relational database
 
-🔗🎯 Outcomes
+🔗🎯 Technical Highlights
 
 Designed RESTful APIs using Spring Boot
 
@@ -47,4 +47,27 @@ Implemented layered architecture (Controller → Service → Repository)
 Established One-to-Many relationship using JPA annotations
 
 Integrated relational database with Hibernate ORM
+
 Improved debugging and API testing skills using Postman
+
+
+🔗🗂️ Project Structure
+
+src/main/java
+ ├── controller
+ ├── service
+ ├── repository
+ ├── entity
+ └── dto
+
+
+▶️ How to Run the Project
+
+Clone the repository
+
+Open the project in IntelliJ or Eclipse
+
+Configure database details in application.properties
+
+Run the Spring Boot application
+Test APIs using Postman
